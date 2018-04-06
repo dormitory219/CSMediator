@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CSMediator_Example' do
+  pod 'CSMediator', :path => '../'
+
+  target 'CSMediator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
