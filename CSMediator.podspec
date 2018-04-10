@@ -32,6 +32,17 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'CSMediator/Classes/**/*'
   
+  
+  s.subspec 'Router' do |router|
+      router.source_files = 'CSMediator/Classes/*.{h,m}'
+      #   router.public_header_files = 'CSMediator/Classes/Router/*.h'
+  end
+  
+  s.subspec 'Service' do |service|
+      service.source_files = 'CSMediator/Classes/Service/*.{h,m}'
+      #   service.public_header_files = 'CSMediator/Classes/Service/*.h'
+  end
+  
   # s.resource_bundles = {
   #   'CSMediator' => ['CSMediator/Assets/*.png']
   # }

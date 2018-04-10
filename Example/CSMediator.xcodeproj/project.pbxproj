@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45229221207BCD3000B2A96D /* CSOrderRouterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 45229220207BCD3000B2A96D /* CSOrderRouterModule.m */; };
+		45229227207D057400B2A96D /* CSOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45229225207D057400B2A96D /* CSOrderListViewController.m */; };
+		45229228207D057400B2A96D /* CSOrderListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45229226207D057400B2A96D /* CSOrderListViewController.xib */; };
+		4522922C207D058900B2A96D /* CSOrderDeatilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522922A207D058900B2A96D /* CSOrderDeatilViewController.m */; };
+		4522922D207D058900B2A96D /* CSOrderDeatilViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4522922B207D058900B2A96D /* CSOrderDeatilViewController.xib */; };
+		45229230207D0E5E00B2A96D /* CSServiceAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522922F207D0E5E00B2A96D /* CSServiceAModule.m */; };
+		45229233207D0E7A00B2A96D /* CSServiceBModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 45229232207D0E7A00B2A96D /* CSServiceBModule.m */; };
+		4522923B207D104500B2A96D /* CSServiceA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522923A207D104500B2A96D /* CSServiceA1.m */; };
+		4522923E207D104F00B2A96D /* CSServiceA2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522923D207D104F00B2A96D /* CSServiceA2.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,7 +47,25 @@
 
 /* Begin PBXFileReference section */
 		352D403E3015DBBE3AE89A05 /* Pods_CSMediator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSMediator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		472C22A0CD0727694CB83F2A /* CSMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CSMediator.podspec; path = ../CSMediator.podspec; sourceTree = "<group>"; };
+		4522921F207BCD3000B2A96D /* CSOrderRouterModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSOrderRouterModule.h; sourceTree = "<group>"; };
+		45229220207BCD3000B2A96D /* CSOrderRouterModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSOrderRouterModule.m; sourceTree = "<group>"; };
+		45229224207D057400B2A96D /* CSOrderListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSOrderListViewController.h; sourceTree = "<group>"; };
+		45229225207D057400B2A96D /* CSOrderListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSOrderListViewController.m; sourceTree = "<group>"; };
+		45229226207D057400B2A96D /* CSOrderListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSOrderListViewController.xib; sourceTree = "<group>"; };
+		45229229207D058900B2A96D /* CSOrderDeatilViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSOrderDeatilViewController.h; sourceTree = "<group>"; };
+		4522922A207D058900B2A96D /* CSOrderDeatilViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSOrderDeatilViewController.m; sourceTree = "<group>"; };
+		4522922B207D058900B2A96D /* CSOrderDeatilViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSOrderDeatilViewController.xib; sourceTree = "<group>"; };
+		4522922E207D0E5E00B2A96D /* CSServiceAModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSServiceAModule.h; sourceTree = "<group>"; };
+		4522922F207D0E5E00B2A96D /* CSServiceAModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSServiceAModule.m; sourceTree = "<group>"; };
+		45229231207D0E7A00B2A96D /* CSServiceBModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSServiceBModule.h; sourceTree = "<group>"; };
+		45229232207D0E7A00B2A96D /* CSServiceBModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSServiceBModule.m; sourceTree = "<group>"; };
+		45229234207D0F6500B2A96D /* CSServiceAModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSServiceAModuleProtocol.h; sourceTree = "<group>"; };
+		45229235207D0F7100B2A96D /* CSServiceBModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSServiceBModuleProtocol.h; sourceTree = "<group>"; };
+		45229239207D104500B2A96D /* CSServiceA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSServiceA1.h; sourceTree = "<group>"; };
+		4522923A207D104500B2A96D /* CSServiceA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSServiceA1.m; sourceTree = "<group>"; };
+		4522923C207D104F00B2A96D /* CSServiceA2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSServiceA2.h; sourceTree = "<group>"; };
+		4522923D207D104F00B2A96D /* CSServiceA2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSServiceA2.m; sourceTree = "<group>"; };
+		472C22A0CD0727694CB83F2A /* CSMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CSMediator.podspec; path = ../CSMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4A9D571DC219A40912CD5F68 /* Pods-CSMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSMediator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSMediator_Tests/Pods-CSMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CSMediator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSMediator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,10 +90,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DD76A301DF4E149437F1A94 /* Pods-CSMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSMediator_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSMediator_Tests/Pods-CSMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9A047888DE58A197E943ED47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9A047888DE58A197E943ED47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9A91C2DD466A9855A819E7A4 /* Pods_CSMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CSMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCFC54EA2AF3E59210270F10 /* Pods-CSMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSMediator_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSMediator_Example/Pods-CSMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DB522EDA8002732A380E7ABF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DB522EDA8002732A380E7ABF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +122,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45229217207BCCC700B2A96D /* serviceTest */ = {
+			isa = PBXGroup;
+			children = (
+				4522922E207D0E5E00B2A96D /* CSServiceAModule.h */,
+				4522922F207D0E5E00B2A96D /* CSServiceAModule.m */,
+				45229239207D104500B2A96D /* CSServiceA1.h */,
+				4522923A207D104500B2A96D /* CSServiceA1.m */,
+				4522923C207D104F00B2A96D /* CSServiceA2.h */,
+				4522923D207D104F00B2A96D /* CSServiceA2.m */,
+				45229234207D0F6500B2A96D /* CSServiceAModuleProtocol.h */,
+				45229231207D0E7A00B2A96D /* CSServiceBModule.h */,
+				45229232207D0E7A00B2A96D /* CSServiceBModule.m */,
+				45229235207D0F7100B2A96D /* CSServiceBModuleProtocol.h */,
+			);
+			path = serviceTest;
+			sourceTree = "<group>";
+		};
+		45229218207BCCC700B2A96D /* routerTest */ = {
+			isa = PBXGroup;
+			children = (
+				4522921F207BCD3000B2A96D /* CSOrderRouterModule.h */,
+				45229220207BCD3000B2A96D /* CSOrderRouterModule.m */,
+				45229224207D057400B2A96D /* CSOrderListViewController.h */,
+				45229225207D057400B2A96D /* CSOrderListViewController.m */,
+				45229226207D057400B2A96D /* CSOrderListViewController.xib */,
+				45229229207D058900B2A96D /* CSOrderDeatilViewController.h */,
+				4522922A207D058900B2A96D /* CSOrderDeatilViewController.m */,
+				4522922B207D058900B2A96D /* CSOrderDeatilViewController.xib */,
+			);
+			path = routerTest;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +191,8 @@
 		6003F593195388D20070C39A /* Example for CSMediator */ = {
 			isa = PBXGroup;
 			children = (
+				45229218207BCCC700B2A96D /* routerTest */,
+				45229217207BCCC700B2A96D /* serviceTest */,
 				6003F59C195388D20070C39A /* CSAppDelegate.h */,
 				6003F59D195388D20070C39A /* CSAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -276,8 +337,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4522922D207D058900B2A96D /* CSOrderDeatilViewController.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				45229228207D057400B2A96D /* CSOrderListViewController.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -355,9 +418,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4522922C207D058900B2A96D /* CSOrderDeatilViewController.m in Sources */,
+				4522923B207D104500B2A96D /* CSServiceA1.m in Sources */,
 				6003F59E195388D20070C39A /* CSAppDelegate.m in Sources */,
+				45229230207D0E5E00B2A96D /* CSServiceAModule.m in Sources */,
 				6003F5A7195388D20070C39A /* CSViewController.m in Sources */,
+				45229233207D0E7A00B2A96D /* CSServiceBModule.m in Sources */,
+				45229221207BCD3000B2A96D /* CSOrderRouterModule.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				4522923E207D104F00B2A96D /* CSServiceA2.m in Sources */,
+				45229227207D057400B2A96D /* CSOrderListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
