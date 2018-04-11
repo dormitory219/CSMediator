@@ -10,12 +10,16 @@
 		45229221207BCD3000B2A96D /* CSOrderRouterModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 45229220207BCD3000B2A96D /* CSOrderRouterModule.m */; };
 		45229227207D057400B2A96D /* CSOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45229225207D057400B2A96D /* CSOrderListViewController.m */; };
 		45229228207D057400B2A96D /* CSOrderListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45229226207D057400B2A96D /* CSOrderListViewController.xib */; };
-		4522922C207D058900B2A96D /* CSOrderDeatilViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522922A207D058900B2A96D /* CSOrderDeatilViewController.m */; };
-		4522922D207D058900B2A96D /* CSOrderDeatilViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4522922B207D058900B2A96D /* CSOrderDeatilViewController.xib */; };
-		45229230207D0E5E00B2A96D /* CSServiceAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522922F207D0E5E00B2A96D /* CSServiceAModule.m */; };
-		45229233207D0E7A00B2A96D /* CSServiceBModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 45229232207D0E7A00B2A96D /* CSServiceBModule.m */; };
-		4522923B207D104500B2A96D /* CSServiceA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522923A207D104500B2A96D /* CSServiceA1.m */; };
-		4522923E207D104F00B2A96D /* CSServiceA2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522923D207D104F00B2A96D /* CSServiceA2.m */; };
+		4522922C207D058900B2A96D /* CSOrderDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522922A207D058900B2A96D /* CSOrderDetailViewController.m */; };
+		4522922D207D058900B2A96D /* CSOrderDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4522922B207D058900B2A96D /* CSOrderDetailViewController.xib */; };
+		45229255207E53F500B2A96D /* CSServiceA1.m in Sources */ = {isa = PBXBuildFile; fileRef = 45229247207E53F500B2A96D /* CSServiceA1.m */; };
+		45229256207E53F500B2A96D /* CSServiceA1Imp.m in Sources */ = {isa = PBXBuildFile; fileRef = 45229249207E53F500B2A96D /* CSServiceA1Imp.m */; };
+		45229257207E53F500B2A96D /* CSServiceA2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522924B207E53F500B2A96D /* CSServiceA2.m */; };
+		45229258207E53F500B2A96D /* CSServiceA2Imp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522924D207E53F500B2A96D /* CSServiceA2Imp.m */; };
+		45229259207E53F500B2A96D /* CSServiceAModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522924F207E53F500B2A96D /* CSServiceAModule.m */; };
+		4522925A207E53F500B2A96D /* CSServiceBModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 45229253207E53F500B2A96D /* CSServiceBModule.m */; };
+		4522925D207E541600B2A96D /* CSServiceB1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522925C207E541600B2A96D /* CSServiceB1.m */; };
+		45229260207E541F00B2A96D /* CSServiceB2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4522925F207E541F00B2A96D /* CSServiceB2.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -52,19 +56,27 @@
 		45229224207D057400B2A96D /* CSOrderListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSOrderListViewController.h; sourceTree = "<group>"; };
 		45229225207D057400B2A96D /* CSOrderListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSOrderListViewController.m; sourceTree = "<group>"; };
 		45229226207D057400B2A96D /* CSOrderListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSOrderListViewController.xib; sourceTree = "<group>"; };
-		45229229207D058900B2A96D /* CSOrderDeatilViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSOrderDeatilViewController.h; sourceTree = "<group>"; };
-		4522922A207D058900B2A96D /* CSOrderDeatilViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSOrderDeatilViewController.m; sourceTree = "<group>"; };
-		4522922B207D058900B2A96D /* CSOrderDeatilViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSOrderDeatilViewController.xib; sourceTree = "<group>"; };
-		4522922E207D0E5E00B2A96D /* CSServiceAModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSServiceAModule.h; sourceTree = "<group>"; };
-		4522922F207D0E5E00B2A96D /* CSServiceAModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSServiceAModule.m; sourceTree = "<group>"; };
-		45229231207D0E7A00B2A96D /* CSServiceBModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSServiceBModule.h; sourceTree = "<group>"; };
-		45229232207D0E7A00B2A96D /* CSServiceBModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSServiceBModule.m; sourceTree = "<group>"; };
-		45229234207D0F6500B2A96D /* CSServiceAModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSServiceAModuleProtocol.h; sourceTree = "<group>"; };
-		45229235207D0F7100B2A96D /* CSServiceBModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSServiceBModuleProtocol.h; sourceTree = "<group>"; };
-		45229239207D104500B2A96D /* CSServiceA1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSServiceA1.h; sourceTree = "<group>"; };
-		4522923A207D104500B2A96D /* CSServiceA1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSServiceA1.m; sourceTree = "<group>"; };
-		4522923C207D104F00B2A96D /* CSServiceA2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSServiceA2.h; sourceTree = "<group>"; };
-		4522923D207D104F00B2A96D /* CSServiceA2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSServiceA2.m; sourceTree = "<group>"; };
+		45229229207D058900B2A96D /* CSOrderDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSOrderDetailViewController.h; sourceTree = "<group>"; };
+		4522922A207D058900B2A96D /* CSOrderDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSOrderDetailViewController.m; sourceTree = "<group>"; };
+		4522922B207D058900B2A96D /* CSOrderDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CSOrderDetailViewController.xib; sourceTree = "<group>"; };
+		45229246207E53F500B2A96D /* CSServiceA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSServiceA1.h; sourceTree = "<group>"; };
+		45229247207E53F500B2A96D /* CSServiceA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSServiceA1.m; sourceTree = "<group>"; };
+		45229248207E53F500B2A96D /* CSServiceA1Imp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSServiceA1Imp.h; sourceTree = "<group>"; };
+		45229249207E53F500B2A96D /* CSServiceA1Imp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSServiceA1Imp.m; sourceTree = "<group>"; };
+		4522924A207E53F500B2A96D /* CSServiceA2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSServiceA2.h; sourceTree = "<group>"; };
+		4522924B207E53F500B2A96D /* CSServiceA2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSServiceA2.m; sourceTree = "<group>"; };
+		4522924C207E53F500B2A96D /* CSServiceA2Imp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSServiceA2Imp.h; sourceTree = "<group>"; };
+		4522924D207E53F500B2A96D /* CSServiceA2Imp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSServiceA2Imp.m; sourceTree = "<group>"; };
+		4522924E207E53F500B2A96D /* CSServiceAModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSServiceAModule.h; sourceTree = "<group>"; };
+		4522924F207E53F500B2A96D /* CSServiceAModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSServiceAModule.m; sourceTree = "<group>"; };
+		45229250207E53F500B2A96D /* CSModuleAProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSModuleAProtocol.h; sourceTree = "<group>"; };
+		45229252207E53F500B2A96D /* CSServiceBModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSServiceBModule.h; sourceTree = "<group>"; };
+		45229253207E53F500B2A96D /* CSServiceBModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSServiceBModule.m; sourceTree = "<group>"; };
+		45229254207E53F500B2A96D /* CSModuleBProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSModuleBProtocol.h; sourceTree = "<group>"; };
+		4522925B207E541600B2A96D /* CSServiceB1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSServiceB1.h; sourceTree = "<group>"; };
+		4522925C207E541600B2A96D /* CSServiceB1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSServiceB1.m; sourceTree = "<group>"; };
+		4522925E207E541F00B2A96D /* CSServiceB2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSServiceB2.h; sourceTree = "<group>"; };
+		4522925F207E541F00B2A96D /* CSServiceB2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSServiceB2.m; sourceTree = "<group>"; };
 		472C22A0CD0727694CB83F2A /* CSMediator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CSMediator.podspec; path = ../CSMediator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4A9D571DC219A40912CD5F68 /* Pods-CSMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSMediator_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSMediator_Tests/Pods-CSMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CSMediator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSMediator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,16 +137,8 @@
 		45229217207BCCC700B2A96D /* serviceTest */ = {
 			isa = PBXGroup;
 			children = (
-				4522922E207D0E5E00B2A96D /* CSServiceAModule.h */,
-				4522922F207D0E5E00B2A96D /* CSServiceAModule.m */,
-				45229239207D104500B2A96D /* CSServiceA1.h */,
-				4522923A207D104500B2A96D /* CSServiceA1.m */,
-				4522923C207D104F00B2A96D /* CSServiceA2.h */,
-				4522923D207D104F00B2A96D /* CSServiceA2.m */,
-				45229234207D0F6500B2A96D /* CSServiceAModuleProtocol.h */,
-				45229231207D0E7A00B2A96D /* CSServiceBModule.h */,
-				45229232207D0E7A00B2A96D /* CSServiceBModule.m */,
-				45229235207D0F7100B2A96D /* CSServiceBModuleProtocol.h */,
+				45229245207E53F500B2A96D /* ModuleA */,
+				45229251207E53F500B2A96D /* ModuleB */,
 			);
 			path = serviceTest;
 			sourceTree = "<group>";
@@ -147,11 +151,43 @@
 				45229224207D057400B2A96D /* CSOrderListViewController.h */,
 				45229225207D057400B2A96D /* CSOrderListViewController.m */,
 				45229226207D057400B2A96D /* CSOrderListViewController.xib */,
-				45229229207D058900B2A96D /* CSOrderDeatilViewController.h */,
-				4522922A207D058900B2A96D /* CSOrderDeatilViewController.m */,
-				4522922B207D058900B2A96D /* CSOrderDeatilViewController.xib */,
+				45229229207D058900B2A96D /* CSOrderDetailViewController.h */,
+				4522922A207D058900B2A96D /* CSOrderDetailViewController.m */,
+				4522922B207D058900B2A96D /* CSOrderDetailViewController.xib */,
 			);
 			path = routerTest;
+			sourceTree = "<group>";
+		};
+		45229245207E53F500B2A96D /* ModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				45229246207E53F500B2A96D /* CSServiceA1.h */,
+				45229247207E53F500B2A96D /* CSServiceA1.m */,
+				45229248207E53F500B2A96D /* CSServiceA1Imp.h */,
+				45229249207E53F500B2A96D /* CSServiceA1Imp.m */,
+				4522924A207E53F500B2A96D /* CSServiceA2.h */,
+				4522924B207E53F500B2A96D /* CSServiceA2.m */,
+				4522924C207E53F500B2A96D /* CSServiceA2Imp.h */,
+				4522924D207E53F500B2A96D /* CSServiceA2Imp.m */,
+				4522924E207E53F500B2A96D /* CSServiceAModule.h */,
+				4522924F207E53F500B2A96D /* CSServiceAModule.m */,
+				45229250207E53F500B2A96D /* CSModuleAProtocol.h */,
+			);
+			path = ModuleA;
+			sourceTree = "<group>";
+		};
+		45229251207E53F500B2A96D /* ModuleB */ = {
+			isa = PBXGroup;
+			children = (
+				45229252207E53F500B2A96D /* CSServiceBModule.h */,
+				45229253207E53F500B2A96D /* CSServiceBModule.m */,
+				4522925B207E541600B2A96D /* CSServiceB1.h */,
+				4522925C207E541600B2A96D /* CSServiceB1.m */,
+				4522925E207E541F00B2A96D /* CSServiceB2.h */,
+				4522925F207E541F00B2A96D /* CSServiceB2.m */,
+				45229254207E53F500B2A96D /* CSModuleBProtocol.h */,
+			);
+			path = ModuleB;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -337,7 +373,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4522922D207D058900B2A96D /* CSOrderDeatilViewController.xib in Resources */,
+				4522922D207D058900B2A96D /* CSOrderDetailViewController.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				45229228207D057400B2A96D /* CSOrderListViewController.xib in Resources */,
@@ -418,16 +454,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4522922C207D058900B2A96D /* CSOrderDeatilViewController.m in Sources */,
-				4522923B207D104500B2A96D /* CSServiceA1.m in Sources */,
+				4522922C207D058900B2A96D /* CSOrderDetailViewController.m in Sources */,
 				6003F59E195388D20070C39A /* CSAppDelegate.m in Sources */,
-				45229230207D0E5E00B2A96D /* CSServiceAModule.m in Sources */,
+				45229256207E53F500B2A96D /* CSServiceA1Imp.m in Sources */,
+				4522925D207E541600B2A96D /* CSServiceB1.m in Sources */,
+				45229258207E53F500B2A96D /* CSServiceA2Imp.m in Sources */,
 				6003F5A7195388D20070C39A /* CSViewController.m in Sources */,
-				45229233207D0E7A00B2A96D /* CSServiceBModule.m in Sources */,
+				45229259207E53F500B2A96D /* CSServiceAModule.m in Sources */,
+				45229257207E53F500B2A96D /* CSServiceA2.m in Sources */,
 				45229221207BCD3000B2A96D /* CSOrderRouterModule.m in Sources */,
+				4522925A207E53F500B2A96D /* CSServiceBModule.m in Sources */,
+				45229255207E53F500B2A96D /* CSServiceA1.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				4522923E207D104F00B2A96D /* CSServiceA2.m in Sources */,
 				45229227207D057400B2A96D /* CSOrderListViewController.m in Sources */,
+				45229260207E541F00B2A96D /* CSServiceB2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

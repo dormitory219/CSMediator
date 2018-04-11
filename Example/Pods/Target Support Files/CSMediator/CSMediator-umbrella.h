@@ -17,10 +17,6 @@
 #import "CSServiceManager.h"
 #import "CSServiceModule.h"
 #import "CSServiceModuleProtocol.h"
-#import "CSMediator.h"
-#import "CSServiceManager.h"
-#import "CSServiceModule.h"
-#import "CSServiceModuleProtocol.h"
 
 FOUNDATION_EXPORT double CSMediatorVersionNumber;
 FOUNDATION_EXPORT const unsigned char CSMediatorVersionString[];

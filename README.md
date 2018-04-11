@@ -1,6 +1,6 @@
 # CSMediator
 
-[![CI Status](http://img.shields.io/travis/dormitory219/CSMediator.svg?style=flat)](https://travis-ci.org/dormitory219/CSMediator)
+[![CI Status](http://img.shields.io/travis/joy_yu/CSMediator.svg?style=flat)](https://travis-ci.org/joy_yu/CSMediator)
 [![Version](https://img.shields.io/cocoapods/v/CSMediator.svg?style=flat)](http://cocoapods.org/pods/CSMediator)
 [![License](https://img.shields.io/cocoapods/l/CSMediator.svg?style=flat)](http://cocoapods.org/pods/CSMediator)
 [![Platform](https://img.shields.io/cocoapods/p/CSMediator.svg?style=flat)](http://cocoapods.org/pods/CSMediator)
@@ -22,7 +22,7 @@ pod 'CSMediator'
 
 ## Author
 
-dormitory219, 289067005@qq.com
+joy_yu, 289067005@qq.com
 
 ## License
 

@@ -2,8 +2,8 @@
 //  CSModuleManager.h
 //  CSModuleManager
 //
-//  Created by 余强 on 2018/1/27.
-//  Copyright © 2018年 余强. All rights reserved.
+//  Created by joy_yu on 2018/1/27.
+//  Copyright © 2018年 joy_yu. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

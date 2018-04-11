@@ -2,8 +2,8 @@
 //  CSOrderListViewController.m
 //  CSMediator_Example
 //
-//  Created by 余强 on 2018/4/10.
-//  Copyright © 2018年 dormitory219. All rights reserved.
+//  Created by joy_yu on 2018/4/10.
+//  Copyright © 2018年 joy_yu. All rights reserved.
 //
 
 #import "CSOrderListViewController.h"
@@ -27,6 +27,7 @@
 - (IBAction)doneAction:(id)sender
 {
     self.finishBlock? self.finishBlock() : nil;
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 @end

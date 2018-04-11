@@ -3,13 +3,13 @@
 //  CSOrderRouterModule.m
 //  CSMediator_Example
 //
-//  Created by 余强 on 2018/4/10.
-//  Copyright © 2018年 dormitory219. All rights reserved.
+//  Created by joy_yu on 2018/4/10.
+//  Copyright © 2018年 joy_yu. All rights reserved.
 //
 
 #import "CSOrderRouterModule.h"
 #import "CSOrderListViewController.h"
-#import "CSOrderDeatilViewController.h"
+#import "CSOrderDetailViewController.h"
 
 @implementation CSOrderRouterModule
 
@@ -33,6 +33,7 @@
 
 - (nullable id)routerURL:(NSString *)urlString params:(NSDictionary *)params
 {
+    NSLog(@"router parameter:%@",params);
     if (![self canRouteModule:urlString])
     {
         return nil;
@@ -45,7 +46,7 @@
     }
     else if ([urlString isEqualToString:@"Order/orderDetail"])
     {
-        CSOrderDeatilViewController *orderDetailVc = [[CSOrderDeatilViewController alloc] init];
+        CSOrderDetailViewController *orderDetailVc = [[CSOrderDetailViewController alloc] init];
          [(UINavigationController *)[UIApplication sharedApplication].keyWindow.rootViewController pushViewController:orderDetailVc animated:YES];
     }
     return nil;

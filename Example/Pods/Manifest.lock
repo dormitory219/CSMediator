@@ -1,9 +1,5 @@
 PODS:
-  - CSMediator (0.1.0):
-    - CSMediator/Router (= 0.1.0)
-    - CSMediator/Service (= 0.1.0)
-  - CSMediator/Router (0.1.0)
-  - CSMediator/Service (0.1.0)
+  - CSMediator (0.1.0)
 
 DEPENDENCIES:
   - CSMediator (from `../`)
@@ -13,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CSMediator: f5267f2b387bd117ed092587c58f12044efa50be
+  CSMediator: f5727a541e922816757e439f1b3d1be179a73214
 
 PODFILE CHECKSUM: 8d90cdb2c373890dad299e9b49e03c6e8546949f
 
-COCOAPODS: 1.5.0.beta.1
+COCOAPODS: 1.5.0
